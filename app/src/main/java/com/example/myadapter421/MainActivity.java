@@ -116,6 +116,10 @@ public class MainActivity extends AppCompatActivity {
 
     public static void loadItemData(String[] dataSample) {
         //for (int i = 0; i < images.size(); i++)
+        if(dataSample.length==0){
+            //Toast.makeText(MainActivity.this," ",Toast.LENGTH_LONG).show();
+            return;
+        }
         adapter.addItem(new ItemData(images.get(0),dataSample[0],dataSample[1]));
         adapter.notifyDataSetChanged();
 

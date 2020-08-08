@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ex_Files_511</string>
+    <string name="title">Sample</string>
+    <string name="subTitle">subSample</string>
+    <string name="delete">Delete</string>
+    <string name="newSample">Введите Title и Subtitle через точку с запятой</string>
+    <string name="dataFiles">Sample1;AndreOv</string>
+    <string name="saveBtn">Save</string>
+</resources>
